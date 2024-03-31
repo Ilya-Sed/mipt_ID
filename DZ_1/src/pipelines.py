@@ -253,10 +253,10 @@ class NCBIDataSetsProcessingTask(luigi.Task):
                 "Definition",
                 "Ontology_Component",
                 "Ontology_Process",
+                "Ontology_Function",
+                "Synonyms",
                 "Obsolete_Probe_Id",
                 "Probe_Sequence",
-                "Synonyms",
-                "Ontology_Function",
             ],
             inplace=True,
         )
